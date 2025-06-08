@@ -1,0 +1,30 @@
+# python-yt-mp3
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```sh
+git clone git@github.com:vromanyu/python-yt-mp3.git
+```
+
+### 2. Create a Virtual Environment
+It's recommended to use a virtual environment to keep dependencies isolated:
+```sh
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate  # Windows
+```
+
+### 3. Install Dependencies
+Use `requirements.txt` to install the necessary packages:
+```sh
+pip install -r requirements.txt
+```
+
+### 5. Run the Project
+Use `build.sh` if you're on Linux, or `build.ps1` if you're on Windows.:
+```sh
+./build.sh // Linux
+.\build.ps1 // Windows
+```
+
