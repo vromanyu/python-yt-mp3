@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function build-program() {
-  source .venv/Scripts/activate
+  source .venv/bin/activate
   pyinstaller -F --paths=.\.venv\Libs\site-packages converter.py
   deactivate
 }
