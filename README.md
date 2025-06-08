@@ -1,5 +1,8 @@
 # python-yt-mp3
 
+## Information Notice
+This tool downloads only the audio from Youtube videos. If you would like support for videos as well, feel free to open a GitHub Issue :) 
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
