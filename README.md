@@ -22,9 +22,5 @@ pip install -r requirements.txt
 ```
 
 ### 5. Run the Project
-Use `build.sh` if you're on Linux, or `build.ps1` if you're on Windows.:
-```sh
-./build.sh // Linux
-.\build.ps1 // Windows
-```
+Run `build.sh` if you're on Linux, or `build.ps1` if you're on Windows.:
 
