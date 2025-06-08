@@ -1,5 +1,8 @@
 # python-yt-mp3
 
+## Information Notice
+This tool downloads only the audio from Youtube videos. If you would like support for videos as well, feel free to open a GitHub Issue :) 
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
@@ -21,10 +24,16 @@ Use `requirements.txt` to install the necessary packages:
 pip install -r requirements.txt
 ```
 
-### 5. Run the Project
+### 5. Build the Project
 If you're on Linux, you should make the `build.sh` executable.
 ```sh
 chmod +x build.sh
 ```
 Run `build.sh` if you're on Linux, or `build.ps1` if you're on Windows.:
+
+### 6. Run the Tool
+The tool runs in the command line. As parameters we pass the desired URLs.
+```sh
+./converter url1 url2 urlX
+```
 
