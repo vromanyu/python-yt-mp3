@@ -29,11 +29,15 @@ If you're on Linux, you should make the `build.sh` executable.
 ```sh
 chmod +x build.sh
 ```
-Run `build.sh` if you're on Linux, or `build.ps1` if you're on Windows.:
+Run `build.sh` if you're on Linux, or `build.ps1` if you're on Windows.
 
 ### 6. Run the Tool
-The tool runs in the command line. As parameters we pass the desired URLs.
+The tool runs in the command line. As parameters we pass the desired URLs:
 ```sh
-./converter url1 url2 urlX
+./converter "url1" "url2" "urlX"
+```
+There's also Docker support. To run the tool and dispose the container aftewards we can execute:
+```bash
+docker run --rm -v ./output:/app/output vromanyu/python-yt-mp3:latest "url1" "url2" "urlN"
 ```
 
